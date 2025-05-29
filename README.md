@@ -47,7 +47,7 @@ A classic Flappy Bird game built with Electron, featuring multiple difficulty le
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/m-a-x-c/blocky-bird.git
    cd flappy-bird
    ```
 
