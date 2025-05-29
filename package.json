@@ -1,0 +1,16 @@
+{
+  "name": "flappy-bird-electron",
+  "version": "1.0.0",
+  "description": "A Flappy Bird style game built with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev"
+  },
+  "keywords": ["electron", "game", "flappy-bird"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0"
+  }
+}

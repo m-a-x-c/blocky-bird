@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        
+        <!-- Game UI Overlays -->
+        <div id="menuScreen" class="screen">
+            <h1>Flappy Bird</h1>
+            <div class="high-scores">
+                <p>High Scores:</p>
+                <p>Easy: <span id="highScoreEasy">0</span></p>
+                <p>Normal: <span id="highScoreNormal">0</span></p>
+                <p>Hard: <span id="highScoreHard">0</span></p>
+            </div>
+            <div class="difficulty-selection">
+                <h3>Select Difficulty:</h3>
+                <button id="easyBtn" class="difficulty-btn">Easy</button>
+                <button id="normalBtn" class="difficulty-btn selected">Normal</button>
+                <button id="hardBtn" class="difficulty-btn">Hard</button>
+            </div>
+            <div class="controls-info">
+                <h3>Controls:</h3>
+                <p>SPACEBAR or UP ARROW: Flap</p>
+                <p>P: Pause/Unpause</p>
+                <p>R: Restart (when game over)</p>
+                <p>ESC: Return to menu</p>
+                <p>M: Mute/Unmute sounds</p>
+            </div>
+            <button id="startBtn" class="start-btn">Start Game</button>
+        </div>
+
+        <div id="gameScreen" class="hidden">
+            <div id="gameUI">
+                <div id="score">Score: 0</div>
+                <div id="difficulty">Normal</div>
+                <div id="soundStatus">🔊</div>
+            </div>
+        </div>
+
+        <div id="pauseScreen" class="screen hidden">
+            <h2>Game Paused</h2>
+            <p>Press P to continue</p>
+            <button id="resumeBtn">Resume</button>
+            <button id="menuBtn">Main Menu</button>
+        </div>
+
+        <div id="gameOverScreen" class="screen hidden">
+            <h2>Game Over!</h2>
+            <div id="finalScore">Score: 0</div>
+            <div id="newHighScore" class="hidden">New High Score!</div>
+            <button id="restartBtn">Play Again</button>
+            <button id="mainMenuBtn">Main Menu</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
