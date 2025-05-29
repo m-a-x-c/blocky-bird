@@ -1,6 +1,6 @@
 # Flappy Bird - Electron Game
 
-![Flappy Bird Icon](assets/icon.png)
+![Flappy Bird Icon](assets/icon_32_32.png)
 
 A classic Flappy Bird game built with Electron, featuring multiple difficulty levels, high score tracking, and sound effects.
 
