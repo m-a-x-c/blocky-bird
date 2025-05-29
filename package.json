@@ -1,5 +1,5 @@
 {
-  "name": "flappy-bird-electron",
+  "name": "blocky-bird-electron",
   "version": "1.0.0",
   "description": "A Flappy Bird style game built with Electron",
   "main": "main.js",
@@ -12,16 +12,16 @@
     "build:msix": "electron-builder --win --publish=never",
     "dist": "electron-builder --publish=never"
   },
-  "keywords": ["electron", "game", "flappy-bird"],
-  "author": "Your Name",
+  "keywords": ["electron", "game", "blocky-bird"],
+  "author": "Numeron",
   "license": "MIT",
   "devDependencies": {
     "electron": "^28.0.0",
     "electron-builder": "^24.9.1"
   },
   "build": {
-    "appId": "com.yourname.flappybird",
-    "productName": "Flappy Bird",
+    "appId": "com.Numeron.blockybird",
+    "productName": "BlockyBird",
     "directories": {
       "output": "dist"
     },
@@ -49,10 +49,10 @@
       "requestedExecutionLevel": "asInvoker"
     },
     "appx": {
-      "displayName": "Flappy Bird",
-      "publisher": "CN=Your Publisher Name",
-      "publisherDisplayName": "Your Publisher Name",
-      "identityName": "YourPublisherName.FlappyBird",
+      "displayName": "BlockyBird",
+      "publisher": "CN=52CF19AD-EEA7-4F7E-9ECC-918FB1147219",
+      "publisherDisplayName": "Numeron",
+      "identityName": "Numeron.BlockyBird",
       "backgroundColor": "#87CEEB",
       "languages": ["en-US"],
       "showNameOnTiles": true,
